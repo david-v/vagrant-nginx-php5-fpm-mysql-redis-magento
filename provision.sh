@@ -66,7 +66,7 @@ sudo apt-get install -y redis-server > /dev/null 2>&1
 echo -e "\n--- Install MySQL specific packages and settings ---\n"
 echo "mysql-server mysql-server/root_password password $DBPASSWD" | debconf-set-selections
 echo "mysql-server mysql-server/root_password_again password $DBPASSWD" | debconf-set-selections
-apt-get -y install mysql-server-5.5 > /dev/null 2>&1
+apt-get -y install mysql-server-5.7 > /dev/null 2>&1
  
 # mysql config
 echo -e "\n--- Setting up our MySQL user and db ---\n"
