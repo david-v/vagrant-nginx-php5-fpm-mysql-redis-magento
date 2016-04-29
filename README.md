@@ -15,7 +15,7 @@ DB pass: supersecurepass
 Optional magento sample data installation:
 Set SAMPLE_DATA=false to disable the sample data installation
 
-If you innstall sample data installation:
+If you install sample data:
 
 MAGENTO user: admin
 
